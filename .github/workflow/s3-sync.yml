@@ -21,4 +21,5 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./test1  s3://srishti-ml-151005
+          aws s3 sync ./test1  s3://srishti-ml-151005 
+          
